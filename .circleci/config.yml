@@ -1,0 +1,11 @@
+version: 2.1
+
+orbs:
+  docker: circleci/docker@1.6.0
+
+workflows:
+  build-docker-image-only:
+    jobs:
+      - docker/publish:
+          image: alexhayton/tauri-circleci
+          update-description: true
