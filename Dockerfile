@@ -10,5 +10,5 @@ RUN sudo apt-get update && \
         squashfs-tools \
         libgtksourceview-3.0-dev \
         libappindicator3-dev \
-        libclang-dev \
+        libclang-dev && \
     sudo apt-get clean
