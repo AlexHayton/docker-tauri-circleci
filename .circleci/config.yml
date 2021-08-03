@@ -9,3 +9,4 @@ workflows:
       - docker/publish:
           image: alexhayton/tauri-circleci
           update-description: true
+          tag: "$CIRCLE_SHA1,latest"
